@@ -242,9 +242,9 @@ def test_image_pull_variants(agent, responses):
     image_name = [
         'ibuildthecloud/helloworld:latest',
         'ibuildthecloud/helloworld',
-        'quay.io/wizardofmath/hellodocker',
-        'quay.io/wizardofmath/hellodocker:latest',
-        'quay.io/wizardofmath/hellodocker:new_stuff',
+        'quay.io/rancher/scratch',
+        'quay.io/rancher/scratch:latest',
+        'quay.io/rancher/scratch:new_stuff',
         'cirros',
         'cirros:latest',
         'cirros:0.3.3'
